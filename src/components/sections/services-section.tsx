@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы делаем</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Наращивание ресниц",
+              description: "Классика, объём, голливуд — любой эффект от натурального до драматичного",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Коррекция бровей",
+              description: "Придаём форму, которая идеально подходит вашему типу лица",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Окрашивание бровей",
+              description: "Хна и краска для выразительного взгляда на срок до 4 недель",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Ламинирование ресниц",
+              description: "Эффект загнутых и густых ресниц без наращивания",
               direction: "bottom",
             },
           ].map((service, i) => (
